@@ -1,0 +1,3 @@
+# Pseudowords-with-Hopfield-Network
+
+The goal is to compare different encoding methods in Hopfield network models. The models will use an input of a selected amount of words with the same or varying lengths. The model should be able to act as an attractor, correctly recognizing words and their scrambled counterparts by converging to fixed-point interpretations. The model’s performance was evaluated by comparing the accuracy of convergence between two different encoding methods over varying depths over a set of dictionaries of varying lengths. Once the network learned this information, we tested its accuracy in recognizing dictionary words scrambled with varying levels of entropy. 
